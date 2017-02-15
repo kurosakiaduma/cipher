@@ -27,6 +27,10 @@ var sentenceThree = function reverse(sentenceTwo) {
 var result = sentenceThree(sentenceTwo)
 console.log(result)
 
-function AlertOne(){
-alert(sentenceTwo)    
-}
+jQuery("#original").click(function() {
+    alert(sentenceTwo);
+});
+
+jQuery("#reverse").click(function() {
+alert(result);
+});
