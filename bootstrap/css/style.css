@@ -1,0 +1,12 @@
+.container{
+    text-align: center;
+    color: white;
+}
+h1.header{
+    text-decoration: underline;
+    font-size: 50;
+}
+body{
+    background-image:url("C:/Users/user/Desktop/cipher/images/z1.jpg");
+    background-size: cover;
+}
